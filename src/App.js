@@ -5,7 +5,23 @@ import React from 'react';
 import Header from './assets/components/header';
 import Collection from './assets/components/collections';
 
-let collections = [{}];
+let collections = [
+  {
+    "name": "The human body",
+    "text": ""
+  }, {
+    "name": "Fruits",
+    "text": ""
+  }, {
+    "name": "Capital cities",
+    "text": ""
+  }, {
+    "name": "Weather",
+    "text": ""
+  }, {
+    "name": "Animals",
+    "text": ""
+  }];
 function App() {
   return (
     <div className="App">
