@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "english": "look",
+        "transcription": "[lʊk]",
+        "russian": "смотреть / взгляд"
+    },
+    {
+        "id": 2,
+        "english": "more",
+        "transcription": "[mɔːr]",
+        "russian": "больше"
+    },
+    {
+        "id": 3,
+        "english": "day",
+        "transcription": "[deɪ]",
+        "russian": "день"
+    },
+    {
+        "id": 4,
+        "english": "could",
+        "transcription": "[kʊd]",
+        "russian": "мог"
+    },
+    {
+        "id": 5,
+        "english": "come",
+        "transcription": "[kʌm]",
+        "russian": "приходить"
+    },
+    {
+        "id": 6,
+        "english": "sound",
+        "transcription": "[saʊnd]",
+        "russian": "звук"
+    },
+    {
+        "id": 7,
+        "english": "people",
+        "transcription": "[ˈpiː.p ə l]",
+        "russian": "люди"
+    }
+]

@@ -1,0 +1,72 @@
+.table th, .table td{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+.table th{
+    color: black;
+    padding: 20px;
+    font-size: 1.1em;
+}
+.table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.tableWrap{
+    display: flex;
+    justify-content: center;
+}
+.addForm{
+    background-color: rgb(120, 230, 166);
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+}
+.addForm input{
+    height: 40px;
+    border: 1px solid rgb(42, 114, 114);
+    border-radius: 5px;
+    text-align: center;
+}
+.addForm input:focus{
+    outline: none;
+    background-color: rgb(198, 223, 215);
+}
+.addForm button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(42, 114, 114);
+    color: white;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.addForm button:hover{
+    background-color: rgb(10, 88, 88);
+    font-weight: bold;
+}
+.tableForm{
+    margin-top: 40px;
+}
+.tableForm th{
+    background-color: rgb(42, 114, 114);
+    color: white;
+}
+.tableForm button{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+.delete{
+    width: 30px;
+}
+.delete:hover{
+    fill: red;
+    transform: scale(1.2);
+}
+.edit{
+    width: 35px;
+}
+.edit:hover{
+    fill: rgb(255, 185, 34);
+    transform: scale(1.2);
+}

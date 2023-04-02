@@ -1,0 +1,27 @@
+.collection{
+    /*background-color: rgb(42, 114, 114);*/
+    /*background-color: rgb(146, 190, 190);
+    background-color: rgb(140, 238, 217);
+    background-color: rgb(120, 230, 166);*/
+    background-color: rgb(146, 190, 190);
+    border-radius: 20px;   
+    height: 150px; 
+}
+.collection-name{
+    color: #252525;
+}
+.collection-btn{
+    border: 1px solid #252525;
+    border-radius: 5px;
+    background-color: rgb(146, 190, 190);
+    color: #252525;
+    padding: 7px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.collection-btn:hover{
+    transform: scale(1.2);
+    background-color: rgb(42, 114, 114);
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
