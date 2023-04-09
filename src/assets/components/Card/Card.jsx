@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Card.css';
 
-class Card extends React.Component {
+/*class Card extends React.Component {
     render() {
         return (
             <div className='card'>
@@ -12,5 +12,18 @@ class Card extends React.Component {
         );
     }
 };
+export default Card;*/
+export default function Card(props) {
+    const [pressed, setPressed] = useState(false);
+    const handleChange = () => {
+        setPressed(!pressed);
+    }
+    return (
+        <div className='card'>
+            <h2 className='card-english'> sound</h2>
+            <p className='card-transcription'> [saʊnd]</p>
+            <button className={"card-btn " + (pressed ? " pressed" : "")} onClick={handleChange}>{pressed ? "звук" : "Проверить"}</button>
 
-export default Card;
+        </div >
+    );
+}

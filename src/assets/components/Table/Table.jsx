@@ -76,7 +76,7 @@ function EditWord({ current, data, setData }) {
             <td><input type='text' onChange={handleEnglish} value={current.english} name='english' placeholder="Enter english" ></input></td>
             <td><input type='text' onChange={handleTranscription} value={current.transcription} name='transcription' placeholder="Enter transcription" ></input></td>
             <td><input type='text' onChange={handleRussian} value={current.russian} name='russian' placeholder="Enter russian"></input></td>
-            <td><button type="submit">Update</button></td>
+            <td><button type="submit" className="update">Update</button></td>
         </tr>)
 }
 

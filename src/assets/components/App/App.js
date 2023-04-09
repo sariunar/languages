@@ -9,34 +9,26 @@ import Collection from '../Collections/Collections';
 
 let collections = [
   {
+    "id": 1,
     "name": "The human body",
     "text": ""
   }, {
+    "id": 2,
     "name": "Fruits",
     "text": ""
   }, {
+    "id": 3,
     "name": "Capital cities",
     "text": ""
   }, {
+    "id": 4,
     "name": "Weather",
     "text": ""
   }, {
+    "id": 5,
     "name": "Animals",
     "text": ""
   }];
-
-/*const columns = [
-  { field: 'id', fieldName: '#' },
-  { field: 'firstName', fieldName: 'First Name' },
-  { field: 'lastName', fieldName: 'Last Name' },
-  { field: 'role', fieldName: 'User\'s role' },
-];
-
-const data = [
-  { id: 1, firstName: 'John', lastName: 'Doe', role: 'Admin' },
-  { id: 2, firstName: 'John', lastName: 'Smith', role: 'Editor' }
-];
-*/
 
 function App() {
   return (
@@ -46,7 +38,7 @@ function App() {
       <div className="AppCollection">
         {
           collections.map((collection) =>
-            <Collection name={collection.name} text={collection.text} />
+            <Collection key={collection.id} name={collection.name} text={collection.text} />
           )
         }
       </div>

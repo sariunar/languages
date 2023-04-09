@@ -70,3 +70,10 @@
     fill: rgb(255, 185, 34);
     transform: scale(1.2);
 }
+.update{
+    font-weight: 600;
+    font-size: 1em;
+}
+.update:hover{
+    color: blue;
+}

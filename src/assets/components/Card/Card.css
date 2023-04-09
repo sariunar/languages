@@ -34,3 +34,12 @@
 .card-btn:hover{
     background-color: #397c34;
 }
+.pressed{
+    background-color: rgb(212, 236, 228);
+    color:#4fd645; 
+    font-size: 1.7em;
+    font-weight: 600;
+}
+.pressed:hover{
+    background-color: rgb(212, 236, 228);
+}
