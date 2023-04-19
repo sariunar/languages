@@ -6,6 +6,8 @@ import Footer from '../AppFooter/Footer';
 import Table from '../Table/Table';
 import Card from '../Card/Card';
 import Collection from '../Collections/Collections';
+import cardData from "../App/data.json";
+import Carousel from "../Slider/Slider"
 
 let collections = [
   {
@@ -47,11 +49,12 @@ function App() {
         <Table />
       </div>
 
-      <div className='cardWord'>
-        <Card />
+      <div className='carousel'>
+        <Carousel />
       </div>
-
-      <div><Footer /></div>
+      <div>
+        <Footer />
+      </div>
 
     </div>
   );
