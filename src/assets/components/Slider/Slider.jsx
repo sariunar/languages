@@ -18,8 +18,7 @@ export default function Carousel() {
                 {
                     cardData.map((card, i) =>
                         <div className='sliderCard'>
-                            <li key={i}>
-                                < Card english={card.english} transcription={card.transcription} russian={card.russian} /></li>
+                            < Card key={i} english={card.english} transcription={card.transcription} russian={card.russian} />
                         </div>
                     )
                 }
