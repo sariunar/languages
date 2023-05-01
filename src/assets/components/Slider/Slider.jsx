@@ -26,18 +26,3 @@ export default function Carousel() {
         </div>
     );
 };
-/*
-<div>{
-                cardData.map((card, i) =>
-                    <Card key={i} english={card.english} transcription={card.transcription} russian={card.russian} />
-                )
-            }</div>
-
-const App2 = () => {
-    return (
-        <div>
-            <SimpleCarousel />
-        </div>
-    );
-};
-*/

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Card.css';
-import cardData from "../App/data.json";
 
 class Card extends React.Component {
     constructor(props) {

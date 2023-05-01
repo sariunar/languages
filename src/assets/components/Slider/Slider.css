@@ -2,7 +2,23 @@
     width: 300px;
     margin:  50px auto;
     text-align: center;
+    margin-bottom: 50px;
 }
 .sliderCard{
     margin: 50px 0;
+}
+.slick-arrow:before {
+    color: #4fd645;
+    font-size: 35px;
+}
+.slick-arrow:after {
+    color: #104b0c;
+    font-size: 35px;
+}
+.slick-prev {
+    left: -40px;
+}
+/*.slick-next*/
+.footerApp{
+    position: relative;
 }

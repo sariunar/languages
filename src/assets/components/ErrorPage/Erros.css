@@ -1,0 +1,8 @@
+.error{
+    height: 100vh;
+    background-image: url(../../images/error.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 70px;
+}
