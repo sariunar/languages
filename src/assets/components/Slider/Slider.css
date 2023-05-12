@@ -22,3 +22,12 @@
 .footerApp{
     position: relative;
 }
+.qwe{
+    background: #104b0c;
+    height: 40px;
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

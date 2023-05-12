@@ -5,9 +5,12 @@ class Card extends React.Component {
     constructor(props) {
         super(props);
         this.state = { pressed: false };
+        this.handleChange = this.handleChange.bind(this);
     };
-    handleChange = () => {
+    handleChange = (id, e) => {
         this.setState({ pressed: !this.state.pressed });
+        this.setState({ id: id });
+        this.props.addToCart();
     }
     render() {
         const { id, english, transcription, russian } = this.props;
@@ -15,7 +18,7 @@ class Card extends React.Component {
             <div className='card'>
                 <h2 className='card-english'> {english}</h2>
                 <p className='card-transcription'> {transcription}</p>
-                <button className={"card-btn " + (this.state.pressed ? " pressed" : "")} onClick={this.handleChange}>{this.state.pressed ? <p>{russian}</p> : "Проверить"}</button>
+                <button className={"card-btn " + (this.state.pressed ? " pressed" : "")} onClick={(e) => this.handleChange(id, e)} >{this.state.pressed ? <p>{russian}</p> : "Проверить"}</button>
             </div >
         );
     }

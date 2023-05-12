@@ -18,8 +18,8 @@ function Table() {
                             <th>Action</th>
                         </thead>
                         {
-                            data.map((current) => (
-                                editState === current.id ? <EditWord current={current} data={data} setData={setData} /> :
+                            data.map((current, i) => (
+                                editState === current.id ? <EditWord key={i} current={current} data={data} setData={setData} /> :
                                     <tr>
                                         <td>{current.english}</td>
                                         <td>{current.transcription}</td>
