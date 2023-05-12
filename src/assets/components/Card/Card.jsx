@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useRef, useEffect } from 'react';
+//import { useState, useRef, useEffect } from 'react';
 import './Card.css';
 
 class Card extends React.Component {
