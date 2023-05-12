@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useState, useRef, useEffect } from 'react';
 import './Card.css';
 
 class Card extends React.Component {
@@ -12,8 +13,17 @@ class Card extends React.Component {
         this.setState({ id: id });
         this.props.addToCart();
     }
+
     render() {
         const { id, english, transcription, russian } = this.props;
+
+        /*const btnRef = useRef();
+        useEffect(() => {
+            btnRef.current.focus();
+        }, []);
+        //ref={btnRef}
+        */
+
         return (
             <div className='card'>
                 <h2 className='card-english'> {english}</h2>
