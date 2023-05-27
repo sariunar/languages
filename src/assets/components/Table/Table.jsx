@@ -42,9 +42,14 @@ function Table() {
         const english = event.target.elements.english.value;
         const transcription = event.target.elements.transcription.value;
         const russian = event.target.elements.russian.value;
-        const updateData = data.map(d => d.id === editState ? { ...d, english: english, transcription: transcription, russian: russian } : d);
-        setEditState(-1)
-        setData(updateData);
+        if (english === '' || transcription === '' || russian === '') {
+            alert('Поле не должно быть пустым, введите значение');
+        }
+        else {
+            const updateData = data.map(d => d.id === editState ? { ...d, english: english, transcription: transcription, russian: russian } : d);
+            setEditState(-1)
+            setData(updateData);
+        }
     }
     function handleEdit(id) {
         setEditState(id)

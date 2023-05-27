@@ -100,8 +100,8 @@ function Game() {
 function CollectionCard() {
     return <div className="AppCollection">
         {
-            collections.map((collection) =>
-                <Collection key={collection.id} name={collection.name} text={collection.text} />
+            collections.map((collection, i) =>
+                <Collection key={i} name={collection.name} text={collection.text} />
             )
         }
     </div>;
