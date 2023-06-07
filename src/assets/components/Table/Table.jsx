@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import tableData from "../App/data.json";
+import { Words } from '../Words/Words';
 import './Table.css';
 
 function Table() {
-    const [data, setData] = useState(tableData);
+    const { words } = useContext(Words);
+    const [data, setData] = useState(words);
     const [editState, setEditState] = useState(-1);
+    useEffect(() => {
+        setData(words);
+    }, [words]);
     return (
         <div className="tableWrap">
             <div>
