@@ -1,3 +1,7 @@
+SPA built with React that serves to learn new English words
+![image](https://github.com/sariunar/languages/assets/90380387/214fb344-5a26-455e-b131-f76b1cab2782)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
